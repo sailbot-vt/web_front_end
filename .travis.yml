@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+ - "node"
+
+script:
+ - npm test -- --coverage | coveralls
+
+notifications:
+  slack:
+    rooms:
+      - virginia-tech-sailbot:7TUtMKl4iXUIRxEy0YAhrsVk#website
