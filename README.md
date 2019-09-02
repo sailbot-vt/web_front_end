@@ -1,29 +1,15 @@
 # web-front-end
 
-## Project setup
-```
-yarn install
-```
+[![Build status](https://travis-ci.com/vt-sailbot/web-front-end.svg?branch=master)](https://travis-ci.com/vt-sailbot/web-front-end)
+[![License information](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/vt-sailbot/web-front-end/blob/master/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/vt-sailbot/web-front-end/badge.svg?branch=master)](https://coveralls.io/github/vt-sailbot/web-front-end?branch=master)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Development
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+Ensure that Node.js and Yarn are installed on your machine.
 
-### Run your tests
-```
-yarn run test
-```
+After cloning the repo, navigate to the directory and run `yarn`. This will install all dependencies.
 
-### Lints and fixes files
-```
-yarn run lint
-```
+Use `yarn add <dependency>` to install new packages.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Use `yarn start` to run the development server. The has all kinds of features that make it easy and fast to develop Node.js apps.
