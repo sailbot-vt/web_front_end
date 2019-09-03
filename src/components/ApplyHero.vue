@@ -12,7 +12,7 @@
         <b-button pill variant="warning" href="https://forms.gle/VekHEwATZY2jcadV7" size="lg">Electrical Engineer</b-button>
       </div>
 
-      <p>If you don&rsquo;t see what you want listed here, reach out to <a href="mailto:mark.shepheard@vt.edu">Mark, our current president</a> and ask if there&rsquo;s a role for you!</p>
+      <p>If you don&rsquo;t see what you want listed here, reach out to <a href="mailto:blasemc1@vt.edu">Blase, our current president</a> and ask if there&rsquo;s a role for you!</p>
     </b-jumbotron>
   </section>
 </template>
