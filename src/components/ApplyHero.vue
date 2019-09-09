@@ -8,8 +8,9 @@
 
       <p>Currently live applications:</p>
       <div class="hero__buttons">
-        <b-button pill variant="primary" href="https://forms.gle/yyfARDZimK6hqx3XA" size="lg">Programmer</b-button>
-        <b-button pill variant="warning" href="https://forms.gle/VekHEwATZY2jcadV7" size="lg">Electrical Engineer</b-button>
+        <b-button pill class="hero__button" variant="primary" href="https://forms.gle/yyfARDZimK6hqx3XA" size="lg">Programmer</b-button>
+        <b-button pill class="hero__button" variant="warning" href="https://forms.gle/VekHEwATZY2jcadV7" size="lg">Electrical Engineer</b-button>
+        <b-button pill class="hero__button" variant="info" href="https://forms.gle/VekHEwATZY2jcadV7" size="lg">Naval Architecture</b-button>
       </div>
 
       <p>If you don&rsquo;t see what you want listed here, reach out to <a href="mailto:blasemc1@vt.edu">Blase, our current president</a> and ask if there&rsquo;s a role for you!</p>
@@ -17,12 +18,9 @@
   </section>
 </template>
 
-<script>
-export default {
-}
-</script>
-
 <style lang="sass" scoped>
+@import "../styles/vars"
+
 .hero
   background-color: #212529
 
@@ -46,6 +44,11 @@ export default {
     display: flex
     align-items: center
     justify-content: space-around
-    max-width: 400px
+    max-width: 600px
     margin: 2rem auto
+
+    @include media("<tablet")
+      flex-direction: column
+      align-items: stretch
+      height: 12rem
 </style>
