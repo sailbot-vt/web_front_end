@@ -11,7 +11,7 @@
         <b-button pill class="hero__button" variant="primary" href="https://forms.gle/yyfARDZimK6hqx3XA" size="lg">Programmer</b-button>
         <b-button pill class="hero__button" variant="warning" href="https://forms.gle/VekHEwATZY2jcadV7" size="lg">Electrical Engineer</b-button>
         <b-button pill class="hero__button" variant="info" href="https://forms.gle/VekHEwATZY2jcadV7" size="lg">Naval Architecture</b-button>
-        <b-button pill class="hero__button" variant="info" href="https://forms.gle/hZiawBCXDJMBzin2A" size="lg">Mechanics</b-button>
+        <b-button pill class="hero__button" href="https://forms.gle/hZiawBCXDJMBzin2A" size="lg">Mechanics</b-button>
       </div>
 
       <p>If you don&rsquo;t see what you want listed here, reach out to <a href="mailto:blasemc1@vt.edu">Blase, our current president</a> and ask if there&rsquo;s a role for you!</p>
@@ -41,12 +41,16 @@
       color: #212529
       background-color: #212529
 
+  &__button
+    margin: 0.2rem
+
   &__buttons
     display: flex
-    align-items: center
-    justify-content: space-around
-    max-width: 600px
-    margin: 2rem auto
+    align-items: flex-start
+    justify-content: left
+    flex-wrap: wrap
+    max-width: 750px
+    margin: 2rem
 
     @include media("<tablet")
       flex-direction: column
