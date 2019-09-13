@@ -10,7 +10,7 @@
       <div class="hero__buttons">
         <b-button pill class="hero__button" variant="primary" href="https://forms.gle/yyfARDZimK6hqx3XA" size="lg">Programmer</b-button>
         <b-button pill class="hero__button" variant="warning" href="https://forms.gle/VekHEwATZY2jcadV7" size="lg">Electrical Engineer</b-button>
-        <b-button pill class="hero__button" variant="info" href="https://forms.gle/VekHEwATZY2jcadV7" size="lg">Naval Architecture</b-button>
+        <b-button pill class="hero__button" variant="info" href="https://forms.gle/rLJAVP3L6TVDymjQA" size="lg">Naval Architecture</b-button>
         <b-button pill class="hero__button" href="https://forms.gle/hZiawBCXDJMBzin2A" size="lg">Mechanics</b-button>
       </div>
 
@@ -56,4 +56,5 @@
       flex-direction: column
       align-items: stretch
       height: 12rem
+      flex-wrap: nowrap
 </style>
